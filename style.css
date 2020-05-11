@@ -8,6 +8,7 @@ html, body {
   height: 100%;
   position: relative;
   background-image: url(https://res.cloudinary.com/ancientla/image/upload/v1589172570/Demostylian_Trankina_illustration_phz3sp.png);
+
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -53,7 +54,7 @@ html, body {
 
 .speech-bubble {
   position: absolute;
-  width: 150px;
+  width: 175px;
   background-color: black;
   border-radius: 10px;
   padding: 5px;
@@ -66,7 +67,8 @@ html, body {
   font-weight: 900;
   font-size: 22px;
   margin-top: 12px;
-  margin-left: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 8px;
   line-height: 1.1;
   color: white;
@@ -74,8 +76,8 @@ html, body {
 .speech-bubble p {
   margin-top: 4px;
   margin-bottom: 12px;
-  margin-right: 4px;
-  margin-left: 10px;
+  margin-right: 15px;
+  margin-left: 15px;
   line-height: 1.15;
   font-family: 'Inter';
   color: #888888;
@@ -91,8 +93,6 @@ html, body {
   pointer-events: none;
   border-color: rgba(255, 255, 255, 0);
   border-top-color: #ffffff;
-  opacity: 0;
-  border-width:10;
-  margin-left: -10px;
+  border-width:0;
+  margin-left: 0px;
 }
-
