@@ -6,7 +6,7 @@ var imageWidth = 1085,
 var hotSpots = [{
   'title': 'Tusks for rooting',
   'description': 'Desmostylians used their tusks to rip up seagrass and sucked them up like a vacuum!',
-  'x': -270,
+  'x': -280,
   'y': -10
 }, {
   'title': 'Unusual body plan',
