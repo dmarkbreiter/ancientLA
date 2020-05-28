@@ -1,5 +1,5 @@
-var imageWidth = 1085,
-    imageHeight = 505,
+var imageWidth = $('.container').width(),
+    imageHeight = $('.container').height(),
     imageAspectRatio = imageWidth / imageHeight,
     $window = $(window);
 
