@@ -6,8 +6,8 @@ var imageWidth = $('.container').width(),
 var hotSpots = [{
   'title': 'Tusks for rooting',
   'description': 'Desmostylians used their tusks to rip up seagrass and sucked them up like a vacuum!',
-  'x': -290,
-  'y': -10
+  'x': -235,
+  'y': -35
 }, {
   'title': 'Unusual body plan',
   'description': 'Desmostylians either walked on the shallow ocean floor like a hippo or actively swam like a sea lion.',
@@ -16,7 +16,7 @@ var hotSpots = [{
 }, {
   'title': 'Legs for swimming?',
   'description': 'It might not look like it, but these legs were well adapted for a mainly aquatic lifestyle.',
-  'x': -200,
+  'x': -100,
   'y': 30
 }];
 
@@ -79,14 +79,10 @@ function positionHotSpots() {
         yPos = hotSpots[index]['y'],
         desiredLeft = 0,
         desiredTop = 0;
-
-    if (windowAspectRatio > imageAspectRatio) {
+    
       yPos = (yPos / imageHeight) * 100;
       xPos = (xPos / imageWidth) * 100;
-    } else {
-      yPos = ((yPos / (windowAspectRatio / imageAspectRatio)) / imageHeight) * 100;
-      xPos = ((xPos / (windowAspectRatio / imageAspectRatio)) / imageWidth) * 100;
-    }
+
 
     $(this).css({
       'margin-top': yPos + '%',
