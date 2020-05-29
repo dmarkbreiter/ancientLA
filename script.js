@@ -1,22 +1,22 @@
-var imageWidth = $('.container').width(),
-    imageHeight = $('.container').height(),
+var imageWidth = 1085,
+    imageHeight = 505,
     imageAspectRatio = imageWidth / imageHeight,
     $window = $(window);
 
 var hotSpots = [{
-  'title': 'Tusks for rooting',
+  'title': 'Tusks',
   'description': 'Desmostylians used their tusks to rip up seagrass and sucked them up like a vacuum!',
-  'x': -235,
-  'y': -35
+  'x': -365,
+  'y': -20
 }, {
   'title': 'Unusual body plan',
   'description': 'Desmostylians either walked on the shallow ocean floor like a hippo or actively swam like a sea lion.',
-  'x': 150,
-  'y': -35 
+  'x': 275,
+  'y': -50 
 }, {
   'title': 'Legs for swimming?',
   'description': 'It might not look like it, but these legs were well adapted for a mainly aquatic lifestyle.',
-  'x': -100,
+  'x': -200,
   'y': 30
 }];
 
